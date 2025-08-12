@@ -17,8 +17,12 @@ import NextJsIcon from "../assets/assets/Next.js.svg";
 import NodeJsIcon from "../assets/assets/Node.js.svg";
 import SIHIcon from "../assets/assets/SIH2.jpg"
 import PawzzLogo from "../assets/assets/pawzzlogo.jpeg"
-import Granthalay from "../assets/assets/Granthalay.png"
-import Portfolio from "../assets/assets/portfolio.png"
+import Granthalay from "../assets/assets/Granth.png"
+import Portfolio from "../assets/assets/GreenF.png"
+import Simon from "../assets/assets/Simon.png"
+import figma from "../assets/assets/figma.png"
+import react from "../assets/assets/react.png"
+import sass from "../assets/assets/sass.png"
 
 export const userData = {
   name: "Rishab Kumar",
@@ -30,6 +34,7 @@ export const userData = {
     linkedin: "https://www.linkedin.com/in/rish4b/",
     github: "https://github.com/Rish4b",
     email: "yadavrishab0234@gmail.com",
+    resume: "/RishabKumarResume.pdf", // Add your resume file path here
   },
   skillsData: {
     title: "My Tech Stack",
@@ -64,15 +69,15 @@ export const userData = {
     //   },
 
       // Styling and CSS Frameworks
-      // {
-      //   id: 5,
-      //   name: "Tailwind CSS",
-      //   type: "CSS Framework",
-      //   image: TailwindIcon,
-      // },
-
-      // Backend and Databases
       {
+        id: 5,
+        name: "Tailwind CSS",
+        type: "CSS Framework",
+        image: TailwindIcon,
+      },
+
+      //Backend and Databases
+       {
         id: 6,
         name: "Node.js",
         type: "JavaScript Runtime",
@@ -148,6 +153,15 @@ export const userData = {
     desc: "Code-Powered Designs in Action",
     projects: [
       {
+        id: 2,
+        name: "GreenForge(working)",
+        description: "AA Learing website for SMEs where they devlop there skill and many more",
+        techStack: ["JavaScript", "React", "TailwindCSS", "GSAP", "Render", "MongoDB","Express", "Node","Framer"],
+        image: Portfolio,
+        github: "https://github.com/Rish4b/GreenForge",
+        website: "https://greenforge-8sdn.onrender.com/",
+      },
+      {
         id: 1,
         name: "Granthalay",
         description:
@@ -164,21 +178,22 @@ export const userData = {
         github: "",
         website: "https://bookstoreapp-frontend2.onrender.com/",
       },
+      
       {
-        id: 2,
-        name: "GreenForge",
-        description: "AA Learing website for SMEs where they devlop there skill and many more",
-        techStack: ["JavaScript", "React", "TailwindCSS", "GSAP", "Render"],
-        image: Portfolio,
-        github: "https://github.com/Rish4b/GreenForge",
-        website: "https://greenforge-8sdn.onrender.com/",
+        id: 3,
+        name: "Simon Say Game",
+        description: "A fun game for Strong the Memory An interactive memory game built with JavaScript that puts your focus, timing, and recall skills to the test. ",
+        techStack: ["JavaScript", "GitHub", "CSS", ],
+        image: Simon,
+        github: "https://github.com/Rish4b/Simons-Say-game",
+        website: "https://rish4b.github.io/Simons-Say-game/",
       },
     ],
   },
   contactData: {
     salutation: "Hi There",
-    title: "Send me a message",
-    subTitle: "Let's code your vision together.",
+    title: "Contact Me",
+    subTitle: "Take a coffee & chat with me",
     emailDesc: "Mail me at",
     linkedin: "Linkedin",
     github: "Github",

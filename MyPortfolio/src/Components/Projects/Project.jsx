@@ -26,11 +26,7 @@ const Project = () => {
         >
           <p className="section-desc">{userData.projectsData.desc}</p>
         </motion.div>
-        <div className="projects-content-items">
-          {userData?.projectsData?.projects.map((item) => {
-            return <ProjectCard key={item.id} item={item} />;
-          })}
-        </div>
+        <ProjectCard projects={userData?.projectsData?.projects} />
       </div>
     </div>
   )
