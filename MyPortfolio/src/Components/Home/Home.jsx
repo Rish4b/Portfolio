@@ -109,7 +109,7 @@ export const Home = () => {
           </a>
           <a
             className="secondary-button"
-            href="/RishabKumarResume.pdf"
+            href={`${import.meta.env.BASE_URL}RishabKumarResume.pdf`}
             target="_blank"
             aria-label="Resume"
             rel="noopener noreferrer"
